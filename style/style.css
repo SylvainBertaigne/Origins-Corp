@@ -15,7 +15,6 @@
    background-image: url(../images/background.webp);
    background-repeat: no-repeat;
    background-size: cover;
-
    box-sizing: border-box;
  }
 
@@ -27,8 +26,8 @@
 }
 .menu{
     background-color: var(--color-orange);
-    display: flex;
     width: 100%;
+   
    }
 
 .logo{
@@ -56,18 +55,26 @@ li{
  }
 
 .content{
-   background-color: var(--color-black) ;
+   color: white;
+   display: flex;
 }
 
+article{
+background-color: var(--color-black);
+margin: 10px;
+height: auto;
+}
 
  h2{
     color: white;
  }
 
- p{
-    color: white;
- }
-
  footer{
     background-color: var(--color-grey);
+    color:white;
+    text-align: center;
+ }
+
+ p{
+   padding: 2rem 0 2rem 0;
  }
